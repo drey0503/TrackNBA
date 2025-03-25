@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "372057149897",
+    "firebase_url": "https://tracknba-default-rtdb.firebaseio.com",
+    "project_id": "tracknba",
+    "storage_bucket": "tracknba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372057149897:android:a5e6c484f315858fffd818",
+        "android_client_info": {
+          "package_name": "com.example.tracknba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372057149897-3rv9e83rq433ju289nep4pnqcvmegqdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tracknba",
+            "certificate_hash": "05bb31be751067d75dacda262803dda55a7f6ee7"
+          }
+        },
+        {
+          "client_id": "372057149897-chjse62tqq18mesjc28irlb6lo72f525.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmVBm24KZOxvCuR5wf28tDW8SYIhblV1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372057149897-chjse62tqq18mesjc28irlb6lo72f525.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
