@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:padding="@dimen/_5sdp"
+        android:text="Team"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="9dp"
+        android:padding="@dimen/_5sdp"
+        android:text="W"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="9dp"
+        android:padding="@dimen/_5sdp"
+        android:text="L"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_1_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="51dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_2_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="87dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_3_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="123dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_4_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="159dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_5_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="195dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_6_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="231dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_7_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="267dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_8_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="303dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_9_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="339dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_10_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="375dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_11_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="411dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_12_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="447dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_13_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="483dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_14_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="519dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_15_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="555dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="53dp"
+        android:padding="5dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="89dp"
+        android:padding="5dp"
+        android:text="2"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="124dp"
+        android:padding="5dp"
+        android:text="3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="161dp"
+        android:padding="5dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="197dp"
+        android:padding="5dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="233dp"
+        android:padding="5dp"
+        android:text="6"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="269dp"
+        android:padding="5dp"
+        android:text="7"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="304dp"
+        android:padding="5dp"
+        android:text="8"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="341dp"
+        android:padding="5dp"
+        android:text="9"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="377dp"
+        android:padding="5dp"
+        android:text="10"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="414dp"
+        android:padding="5dp"
+        android:text="11"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="450dp"
+        android:padding="5dp"
+        android:text="12"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="485dp"
+        android:padding="5dp"
+        android:text="13"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="521dp"
+        android:padding="5dp"
+        android:text="14"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="556dp"
+        android:padding="5dp"
+        android:text="15"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_1_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="53dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_2_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="89dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_3_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="124dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_4_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="161dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_5_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="197dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_6_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="233dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_7_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="269dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_8_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="304dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_9_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="341dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_10_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="377dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_11_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="414dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_12_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="450dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_13_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="485dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_14_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="521dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_15_wins_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="556dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_1_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="53dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_2_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="89dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_3_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="124dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_4_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="161dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_5_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="197dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_6_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="233dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_7_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="269dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_8_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="304dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_9_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="341dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_10_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="377dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_11_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="414dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_12_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="450dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_13_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="485dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_14_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="521dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_15_losses_TV"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="556dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/team_1_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="53dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_2_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="89dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_3_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="124dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_4_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="161dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_5_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="197dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_6_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="233dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_7_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="269dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_8_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="304dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_9_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="341dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_10_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="377dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_11_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="414dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_12_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="450dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_13_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="485dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_14_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="521dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/team_15_logo"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="556dp"
+        android:padding="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

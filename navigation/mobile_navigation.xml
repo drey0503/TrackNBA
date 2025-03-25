@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tracknba.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <activity
+        android:id="@+id/nav_chat"
+        android:name="com.example.tracknba.ChatActivity"
+        android:label="Chat"
+        tools:layout="@layout/activity_chat"/>
+    <activity
+        android:id="@+id/nav_compare_players"
+        android:name="com.example.tracknba.ComparePlayersActivity"
+        android:label="Compare Players"
+        tools:layout="@layout/activity_compareplayers"/>
+    <activity
+        android:id="@+id/nav_compare_teams"
+        android:name="com.example.tracknba.CompareTeamsActivity"
+        android:label="Compare Teams"
+        tools:layout="@layout/activity_compare_team"/>
+    <activity
+        android:id="@+id/nav_search_for_player"
+        android:name="com.example.tracknba.SearchForPlayerActivity"
+        android:label="Search for Player"
+        tools:layout="@layout/activity_search_for_player"/>
+    <activity
+        android:id="@+id/nav_search_for_team"
+        android:name="com.example.tracknba.SearchForTeamActivity"
+        android:label="Search for Team"
+        tools:layout="@layout/activity_search_for_team"/>
+    <activity
+        android:id="@id/nav_standings"
+        android:name="com.example.tracknba.StandingsActivity"
+        android:label="Standings"
+        tools:layout="@layout/activity_standings"/>
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="com.example.tracknba.TestLink"
+        android:label="Settings"
+        tools:layout="@layout/activity_settings"/>
+
+</navigation>

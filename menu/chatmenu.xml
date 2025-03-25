@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Atlanta Hawks"
+        android:id="@+id/hawksM"
+        android:icon="@drawable/_hawks"></item>
+    <item
+        android:title="Boston Celtics"
+        android:id="@+id/celticsM"
+        android:icon="@drawable/_celtics"></item>
+    <item
+        android:title="Brooklyn Nets"
+        android:id="@+id/netsM"
+        android:icon="@drawable/_nets"></item>
+    <item
+        android:title="Charlotte Hornets"
+        android:id="@+id/hornetsM"
+        android:icon="@drawable/_hornets"></item>
+    <item
+        android:title="Chicago Bulls"
+        android:id="@+id/bullsM"
+        android:icon="@drawable/_bulls"></item>
+
+</menu>

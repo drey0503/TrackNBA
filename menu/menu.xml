@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Chat"
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Compare Players"
+        android:id="@+id/compare_players"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Compare Teams"
+        android:id="@+id/compare_teams"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Search For Player"
+        android:id="@+id/search_for_player"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Search For Team"
+        android:id="@+id/search_for_team"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+</menu>
