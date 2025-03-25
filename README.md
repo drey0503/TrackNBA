@@ -1,5 +1,8 @@
+# THIS PROJECT IS OUTDATED, API KEYS ARE EXPIRED AND WE NO LONGER HAVE ACCESS TO THEM
+
+
 # TeamBruteForce
-This is for the Website Milestone for Csce 492
+This is for the Website Milestone for CSCE 492
 # TrackNBA
 TrackNBA will be an application where the user is able to track live NBA stats, standings, and scores.
 Users are prompted to create a personalized account where the user has the option to select
